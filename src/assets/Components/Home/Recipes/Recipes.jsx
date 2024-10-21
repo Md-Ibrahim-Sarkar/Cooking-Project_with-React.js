@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
 
-import Item from "./item";
+import Item from "../Recipes/Item";
 import { motion } from 'framer-motion';
 
 
