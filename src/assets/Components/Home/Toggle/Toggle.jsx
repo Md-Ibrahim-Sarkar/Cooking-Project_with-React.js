@@ -1,4 +1,3 @@
-import Social from '../../Home/Socials/Social'
 
 function Toggle() {
 
@@ -23,14 +22,14 @@ function Toggle() {
 
 
   return (
-    <div className="min-[1050px]:hidden">
+    <div className="min-[1282px]:hidden">
       <button
         onClick={onCanvas}
         data-drawer-target="drawer-right-example"
         data-drawer-show="drawer-right-example"
         data-drawer-placement="right"
         aria-controls="drawer-right-example"
-        className="btn btn-square btn-ghost "
+        className="btn btn-square btn-ghost"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

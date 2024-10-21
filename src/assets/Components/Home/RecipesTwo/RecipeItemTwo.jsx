@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import { motion } from 'framer-motion';
 
 function RecipeItemTwo({ recipe }) {
   
@@ -8,9 +8,28 @@ function RecipeItemTwo({ recipe }) {
   
 
   return (
-    <div className="cursor-pointer">
+    <motion.div
+      className="cursor-pointer"
+      initial={{
+        opacity: 0,
+        y: -100,
+        scale: 0.5,
+      }}
+      whileInView={{
+        opacity: 1,
+        y: 0, //
+        scale: 1,
+        transition: {
+          duration: 1,
+          delay: 0.05,
+        },
+      }}
+    >
       <div>
-        <img className="rounded-2xl h-[200px] max-w-[360px] lg:w-[300px] xl:w-[360px]" src={image} />
+        <img
+          className="rounded-2xl h-[200px] max-w-[360px] lg:w-[300px] xl:w-[360px]"
+          src={image}
+        />
       </div>
       <h3 className="h3 my-5 max-w-72">{name}</h3>
       <div>
@@ -25,7 +44,7 @@ function RecipeItemTwo({ recipe }) {
           </span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

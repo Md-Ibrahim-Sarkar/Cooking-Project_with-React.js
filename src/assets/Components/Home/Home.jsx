@@ -16,16 +16,16 @@ function Home() {
     <div>
       <div className="container mx-auto px-3">
         <Header />
-        <Banner />
+         <Banner />
         <Categories />
         <RecipeBody />
-        <BannerTwo />
+        <BannerTwo /> 
       </div>
       <InstagramData />
       <div className="container mx-auto px-3">
-        <RecipesTwo />
+         <RecipesTwo />
         <Subscribe />
-        <Footer />
+        <Footer /> 
       </div>
     
     </div>

@@ -1,8 +1,26 @@
+/* eslint-disable no-undef */
+import { motion } from 'framer-motion';
 
 
-function RecipeSearch() {
+function RecipeSearch({ onSearch }) {
+  
   return (
-    <div>
+    <motion.div
+      initial={{
+        opacity: 0,
+        x: 100,
+        scale: 0.5,
+      }}
+      whileInView={{
+        opacity: 1,
+        x: 0, //
+        scale: 1,
+        transition: {
+          duration: 1,
+          delay: 0.05,
+        },
+      }}
+    >
       <form className="max-w-xl lg:w-[350px] mx-auto">
         <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
           Search
@@ -23,6 +41,7 @@ function RecipeSearch() {
             </svg>
           </div>
           <input
+            onKeyUp={(e)=> onSearch(e.target.value)}
             type="search"
             id="default-search"
             className="block w-full p-4 ps-10 text-sm text-gray-900 border border-[#43ddff] rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-[#E7F9FD] dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -31,8 +50,8 @@ function RecipeSearch() {
           />
         </div>
       </form>
-    </div>
+    </motion.div>
   );
 }
 
-export default RecipeSearch
+export default RecipeSearch;
