@@ -11,20 +11,20 @@ function Header() {
             Foodieland <span className="text-orange-500 text-5xl">.</span>
           </span>
         </div>
-        <ul className="flex max-[1283px]:hidden text-[18px]">
-          <li className=" px-4 font-semibold text-2xl hover:text-orange-500">
+        <ul className="flex max-[1039px]:hidden text-[14px]">
+          <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
             <a href="#">Home</a>
           </li>
-          <li className=" px-4 font-semibold text-2xl hover:text-orange-500">
+          <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
             <a href="#">Recipes</a>
           </li>
-          <li className=" px-4 font-semibold text-2xl hover:text-orange-500">
+          <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
             <a href="#">Blog</a>
           </li>
-          <li className=" px-4 font-semibold text-2xl hover:text-orange-500">
+          <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
             <a href="#">Contact</a>
           </li>
-          <li className=" px-4 font-semibold text-2xl hover:text-orange-500">
+          <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
             <a href="#">About us</a>
           </li>
         </ul>

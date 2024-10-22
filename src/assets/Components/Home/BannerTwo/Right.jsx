@@ -6,12 +6,12 @@ function Right() {
     <motion.div
       initial={{
         opacity: 0,
-        x: 100,
+        y: 100,
         scale: 0.5,
       }}
       whileInView={{
         opacity: 1,
-        x: 0, //
+        y: 0, //
         scale: 1,
         transition: {
           duration: 1,

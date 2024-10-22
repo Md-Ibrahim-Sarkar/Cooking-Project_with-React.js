@@ -32,13 +32,13 @@ function Recipes({ FetchData }) {
           Simple and tasty recipes
         </h2>
         <div className="flex justify-center mb-6">
-          <p className="max-w-[706px] text-center mt-4">
+          <p className="max-w-[706px] text-center mt-1">
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqut enim ad minim{' '}
           </p>
         </div>
       </motion.div>
-      <div className="flex flex-wrap ">
+      <div className="grid gap-4 lg:grid-cols-3 max-[640px]:grid-cols-1  sm:grid-cols-2  place-items-center ">
         {FetchData.map(item => (
           <Item key={item.id} AllData={item} />
         ))}

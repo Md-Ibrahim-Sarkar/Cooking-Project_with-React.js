@@ -24,7 +24,7 @@ function Subscribe() {
         >
           Deliciousness to your inbox
         </motion.h1>
-        <div className="flex w-full justify-center mb-14">
+        <div className="flex w-full justify-center mb-14 max-[640px]:mb-5">
           <motion.p
             className="max-w-[620px] text-center"
             initial={{
@@ -66,7 +66,7 @@ function Subscribe() {
         <SubscribeInput />
       </motion.div>
       <motion.div
-        className="absolute left-0 bottom-0  lg:w-[300px] max-[1000px]:w-[200px] max-[700px]:w-[150px]"
+        className="absolute left-0 bottom-0   lg:w-[300px] max-[1000px]:w-[200px] max-[700px]:w-[150px]"
         initial={{
           opacity: 0,
 

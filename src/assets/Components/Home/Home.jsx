@@ -14,7 +14,7 @@ import Footer from "../Footer/Footer"
 function Home() {
   return (
     <div>
-      <div className="container mx-auto px-3">
+      <div className=" container mx-auto">
         <Header />
          <Banner />
         <Categories />

@@ -3,7 +3,7 @@
 function SubscribeInput() {
   return (
     <div className="z-50">
-      <form className="max-w-md mx-auto">
+      <form className="max-w-md mx-auto max-[640px]:mb-16">
         <label
 
           className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

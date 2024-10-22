@@ -42,7 +42,7 @@ function Categories() {
         <motion.span
           initial={{
             opacity: 0,
-            x: 100,
+            x: -100,
           }}
           whileInView={{
             opacity: 1,

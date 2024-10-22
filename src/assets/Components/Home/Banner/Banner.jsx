@@ -51,11 +51,13 @@ function Banner() {
               className="font-inter mt-[24px] max-w-[520px]"
               initial={{
                 opacity: 0,
-                x: 100,
+                y: -100,
+                scale: 0.5,
               }}
               whileInView={{
                 opacity: 1,
-                x: 0, //
+                y: 0, //
+                scale: 1,
                 transition: {
                   duration: 1,
                   delay: 0.05,
@@ -71,11 +73,11 @@ function Banner() {
             className="mt-4"
             initial={{
               opacity: 0,
-              x: 100,
+              y: 100,
             }}
             whileInView={{
               opacity: 1,
-              x: 0, //
+              y: 0, //
               transition: {
                 duration: 1,
                 delay: 0.07,
@@ -106,7 +108,7 @@ function Banner() {
               },
             }}
           >
-            <div className="flex gap-5   ">
+            <div className="flex gap-5  cursor-pointer ">
               <img
                 className="max-[350px]:w-[50px] max-[350px]:h-[50px]"
                 src={two}

@@ -22,7 +22,7 @@ function Toggle() {
 
 
   return (
-    <div className="min-[1282px]:hidden">
+    <div className="min-[1140px]:hidden">
       <button
         onClick={onCanvas}
         data-drawer-target="drawer-right-example"

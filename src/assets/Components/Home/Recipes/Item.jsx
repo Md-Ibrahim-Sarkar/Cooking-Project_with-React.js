@@ -32,7 +32,7 @@ function Item({ AllData }) {
           <i className="fa-solid fa-heart"></i>
         </div>
       </div>
-      <h3 className="text-2xl mt-4">{AllData.name}</h3>
+      <h3 className="text-2xl mt-4 capitalize">{AllData.name}</h3>
       <div className="mt-4">
         <span className="py-5 me-5">
           <i className="fa-solid me-3 fa-stopwatch"></i>

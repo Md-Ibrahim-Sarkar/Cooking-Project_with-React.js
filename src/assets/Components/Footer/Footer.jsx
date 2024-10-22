@@ -58,10 +58,9 @@ function Footer() {
           <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
           <span className="block text-lg  sm:text-center ">
             © 2024{' '}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Foodieland.
+            <a href="https://ibrahimsarkar.com/" className="hover:underline hover:text-red-600" target='_blank'>
+              developed by Ibrahim Sarkar
             </a>
-            . All Rights Reserved.
           </span>
         </div>
       </footer>
