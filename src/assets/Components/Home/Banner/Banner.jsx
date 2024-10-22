@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 import one from '../../../../../public/images/small-paper.png'
-import two from '../../../../../public/images/small-profile-img.png';
+import Profile from '../../Profile/Profile';
 import Banner_image from './Banner_image';
 import { motion } from 'framer-motion';
 
@@ -108,21 +108,7 @@ function Banner() {
               },
             }}
           >
-            <div className="flex gap-5  cursor-pointer ">
-              <img
-                className="max-[350px]:w-[50px] max-[350px]:h-[50px]"
-                src={two}
-                alt="profile"
-              />
-              <span>
-                <span className="block max-[350px]:text-[13px] max-[350px]:mt-[3px]">
-                  John Smith
-                </span>
-                <span className="block max-[350px]:text-[13px] max-[350px]:mt-[3px]">
-                  15 March 2022
-                </span>
-              </span>
-            </div>
+            <Profile />
             <div className="flex justify-center items-center bg-black rounded-2xl px-5 max-[640px]:px-2 max-[350px]: cursor-pointer">
               <span className="me-2 text-white max-[640px]:text-[12px] max-[350px]:text-[11px]">
                 View Recipes

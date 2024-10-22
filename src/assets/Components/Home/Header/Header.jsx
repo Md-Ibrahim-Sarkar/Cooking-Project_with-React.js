@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import Social from '../Socials/Social'
 import Toggle from '../Toggle/Toggle'
 
@@ -13,19 +14,19 @@ function Header() {
         </div>
         <ul className="flex max-[1039px]:hidden text-[14px]">
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-            <a href="#">Home</a>
+           <Link to={'/'}>Home</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-            <a href="#">Recipes</a>
+           <Link to={'/recipes'}>Recipes</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-            <a href="#">Blog</a>
+           <Link to={'/blog'}>Blog</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-            <a href="#">Contact</a>
+           <Link to={'/contact'}>Contact</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-            <a href="#">About us</a>
+           <Link to={'/about-us'}>About us</Link>
           </li>
         </ul>
 
@@ -33,6 +34,7 @@ function Header() {
         <Toggle />
 
       </div>
+      
     </div>
   );
 }
