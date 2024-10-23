@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import one from '../../../../../public/images/small-paper.png'
+import one from '../../../../../public/images/small-paper.png';
 import Profile from '../../Profile/Profile';
 import Banner_image from './Banner_image';
 import { motion } from 'framer-motion';
@@ -125,4 +125,4 @@ function Banner() {
   );
 }
 
-export default Banner
+export default Banner;
