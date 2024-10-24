@@ -11,6 +11,9 @@ import { motion } from "framer-motion";
 
 
 function Blog() {
+
+  let i = 0;
+
   return (
     <div className="container mx-auto px-3">
       <motion.h2 className="text-[64px] text-center font-semibold"
@@ -61,7 +64,11 @@ function Blog() {
       </motion.div>
 
       <div className="grid lg:grid-cols-6 md:grid-cols-1 mt-10 gap-4">
+
+
         <Main className='col-span-4 ' />
+
+
         <Aside className='col-span-2' />
       </div>
       <div className="flex justify-center mt-4 mb-6">

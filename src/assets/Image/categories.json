@@ -3,34 +3,34 @@
     {
       "id": 1,
       "title": "Breakfast",
-      "image": "./public/images/Breakfast.png",
+      "image": "./Breakfast.png",
       "description": "A healthy start to your day",
       "tags": ["meal", "morning"]
     },
     {
       "id": 2,
       "title": "Vegan",
-      "image": "./public/images/Vegan.png"
+      "image": "./Vegan.png"
     },
     {
       "id": 3,
       "title": "Meat",
-      "image": "./public/images/Chocolate.png"
+      "image": "./Chocolate.png"
     },
     {
       "id": 4,
       "title": "Dessert",
-      "image": "./public/images/Meat.png"
+      "image": "./Meat.png"
     },
     {
       "id": 5,
       "title": "Lunch",
-      "image": "./public/images/Lunch.png"
+      "image": "./Lunch.png"
     },
     {
       "id": 6,
       "title": "Chocolate",
-      "image": "./public/images/Dessert.png"
+      "image": "./Dessert.png"
     }
   
   ]

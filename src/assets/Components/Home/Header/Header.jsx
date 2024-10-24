@@ -14,19 +14,19 @@ function Header() {
         </div>
         <ul className="flex max-[1039px]:hidden text-[14px]">
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-           <Link to={'/'}>Home</Link>
+            <Link to={'/'}>Home</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-           <Link to={'/recipes'}>Recipes</Link>
+            <Link to={'/recipes'}>Recipes</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-           <Link to={'/blog'}>Blog</Link>
+            <Link to={'/blog'}>Blog</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-           <Link to={'/contact'}>Contact</Link>
+            <Link to={'/contact'}>Contact</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-           <Link to={'/about-us'}>About us</Link>
+            <Link to={'/about-us'}>About us</Link>
           </li>
         </ul>
 
@@ -34,7 +34,7 @@ function Header() {
         <Toggle />
 
       </div>
-      
+
     </div>
   );
 }

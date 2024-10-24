@@ -3,21 +3,22 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import FinalItem from "./FinalItem";
 import { motion } from 'framer-motion';
+import categoriesJson from '../../../Image/categories.json'
 
 
 function Categories() {
 
   let [caData, setCaData] = useState([])
-  
-  useEffect(() => {
-    async function dataFetch() {
-      let data = await axios.get('categories.json')
-      setCaData(data.data)
-      
-    }
-    dataFetch();
-  },[])
-  
+
+  // useEffect(() => {
+  //   async function dataFetch() {
+  //     let data = await axios.get(categoriesJson)
+  //     setCaData(data.data)
+
+  //   }
+  //   dataFetch();
+  // }, [])
+
 
   return (
     <div className="lg:mt-40 mt-10 ">
@@ -63,7 +64,7 @@ function Categories() {
       </div>
       {/* item */}
       <div className="grid mt-8 max-[400px]:grid-cols-1 max-[700px]:grid-cols-2 max-[1050px]:grid-cols-3  grid-cols-6 gap-4 place-content-evenly w-full max-[700px]: place-items-center">
-        <FinalItem caData={caData} />
+        <FinalItem caData={categoriesJson} />
       </div>
     </div>
   );

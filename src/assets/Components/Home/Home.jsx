@@ -1,5 +1,5 @@
 import Banner from './Banner/Banner'
-import Categories from "./Categories/Categories"
+// import Categories from "./Categories/Categories"
 import RecipeBody from "./Recipes/RecipeBody"
 import BannerTwo from "./BannerTwo/BannerTwo"
 import InstagramData from "./InstagramData/InstagramData"
@@ -14,18 +14,18 @@ function Home() {
   return (
     <div>
       <div className=" container mx-auto">
-         <Banner />
-        <Categories />
+        <Banner />
+        {/* <Categories /> */}
         <RecipeBody />
-        <BannerTwo /> 
+        <BannerTwo />
       </div>
       <InstagramData />
       <div className="container mx-auto px-3">
-         <RecipesTwo />
+        <RecipesTwo />
         <Subscribe />
 
       </div>
-    
+
     </div>
   );
 }
