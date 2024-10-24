@@ -1,5 +1,6 @@
 
 import { motion } from 'framer-motion';
+import bannerTwo from '../../../../../public/images/banner-two.png'
 
 function Right() {
   return (
@@ -19,7 +20,7 @@ function Right() {
         },
       }}
     >
-      <img src="/public/images/banner-two.png" alt="" />
+      <img src={bannerTwo} alt="" />
     </motion.div>
   );
 }

@@ -1,5 +1,9 @@
 import Button from "../../Button/Button"
 import { motion } from 'framer-motion';
+import imageOne from '../../../../../public/images/insta-1.png'
+import imageTwo from '../../../../../public/images/insta-2.png'
+import imageThere from '../../../../../public/images/insta-3.png'
+import imagefour from '../../../../../public/images/insta-4.png'
 
 function InstagramImage() {
   return (
@@ -22,7 +26,7 @@ function InstagramImage() {
             },
           }}
         >
-          <img className="shadow-2xl" src="/public/images/insta-1.png" alt="" />
+          <img className="shadow-2xl" src={imageOne} alt="" />
         </motion.div>
         <motion.div
           className="flex justify-center mb-3 "
@@ -41,7 +45,7 @@ function InstagramImage() {
             },
           }}
         >
-          <img className="shadow-2xl" src="/public/images/insta-2.png" alt="" />
+          <img className="shadow-2xl" src={imageTwo} alt="" />
         </motion.div>
         <motion.div
           className="flex justify-center mb-3 "
@@ -60,7 +64,7 @@ function InstagramImage() {
             },
           }}
         >
-          <img className="shadow-2xl" src="/public/images/insta-3.png" alt="" />
+          <img className="shadow-2xl" src={imageThere} alt="" />
         </motion.div>
         <motion.div
           className="flex justify-center mb-3 "
@@ -79,7 +83,7 @@ function InstagramImage() {
             },
           }}
         >
-          <img className="shadow-2xl" src="/public/images/insta-4.png" alt="" />
+          <img className="shadow-2xl" src={imagefour} alt="" />
         </motion.div>
       </div>
       <div className="w-full flex justify-center md:mt-20">
