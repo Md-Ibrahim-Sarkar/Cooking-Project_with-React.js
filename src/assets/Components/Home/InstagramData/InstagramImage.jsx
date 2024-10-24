@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import imageOne from '../../../../../public/images/insta-1.png'
 import imageTwo from '../../../../../public/images/insta-2.png'
 import imageThere from '../../../../../public/images/insta-3.png'
-import imagefour from '../../../../../public/images/insta-4.png'
+import imageFour from '../../../../../public/images/insta-4.png'
 
 function InstagramImage() {
   return (
@@ -83,7 +83,7 @@ function InstagramImage() {
             },
           }}
         >
-          <img className="shadow-2xl" src={imagefour} alt="" />
+          <img className="shadow-2xl" src={imageFour} alt="" />
         </motion.div>
       </div>
       <div className="w-full flex justify-center md:mt-20">
