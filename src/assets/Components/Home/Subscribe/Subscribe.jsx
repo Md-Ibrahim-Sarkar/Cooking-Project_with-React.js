@@ -1,5 +1,7 @@
 import SubscribeInput from "./SubscribeInput";
 import { motion } from 'framer-motion';
+import banner_Child_one from '../../../../../public/images/banner-child-three.png'
+import banner_Child_two from '../../../../../public/images/banner-child-three -2.png'
 
 function Subscribe() {
   return (
@@ -82,7 +84,7 @@ function Subscribe() {
           },
         }}
       >
-        <img src="/public/images/banner-child-three.png" alt="" />
+        <img src={banner_Child_one} alt="" />
       </motion.div>
       <motion.div
         className="absolute right-0 bottom-0 lg:w-[300px] max-[1000px]:w-[200px] max-[700px]:w-[150px]"
@@ -99,7 +101,7 @@ function Subscribe() {
           },
         }}
       >
-        <img src="/public/images/banner-child-three -2.png" alt="" />
+        <img src={banner_Child_two} alt="" />
       </motion.div>
     </div>
   );
