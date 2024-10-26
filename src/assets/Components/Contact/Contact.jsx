@@ -5,7 +5,7 @@ import Subscribe from "../Home/Subscribe/Subscribe";
 function Contact() {
   return (
     <div className="container mx-auto px-3">
-      <motion.h2 className="text-[64px] text-center font-semibold"
+      <motion.h2 className="text-[64px] text-center font-semibold max-[640px]:text-4xl"
         initial={{
           opacity: 0,
           y: -100,
