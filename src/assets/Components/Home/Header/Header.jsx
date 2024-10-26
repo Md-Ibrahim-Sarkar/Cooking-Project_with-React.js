@@ -26,7 +26,7 @@ function Header() {
             <Link to={'/contact'}>Contact</Link>
           </li>
           <li className=" px-4 font-semibold text-[18px] hover:text-orange-500">
-            <Link to={'/about-us'}>About us</Link>
+            <Link to={'/about-us'}>Post_Demo</Link>
           </li>
         </ul>
 

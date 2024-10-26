@@ -9,12 +9,11 @@ import Footer from "./assets/Components/Footer/Footer"
 function App() {
   return (
     <div>
-
-        <Header ></Header>
+      <Header ></Header>
       <Outlet></Outlet>
       <div className="container mx-auto">
-         <Footer ></Footer>
-     </div>
+        <Footer ></Footer>
+      </div>
 
     </div>
   )
