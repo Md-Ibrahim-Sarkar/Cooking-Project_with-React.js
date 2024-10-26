@@ -19,7 +19,7 @@ function Contact() {
           },
         }}>Contact Us</motion.h2>
       <div className="md:grid md:grid-cols-6 mb-7">
-        <motion.div className="col-span-2 w-[400px] max-[1000px]:hidden h-[472px] bg-gradient-to-b from-orange-50 to-cyan-100 rounded-lg"
+        <motion.div className="col-span-2 lg:w-[300px] xl:w-[400px] max-[1000px]:hidden h-[472px] bg-gradient-to-b from-orange-50 to-cyan-100 rounded-lg"
           initial={{
             opacity: 0,
             x: -100,
