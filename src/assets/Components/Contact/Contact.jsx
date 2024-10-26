@@ -78,9 +78,9 @@ function Contact() {
           <div className="w-full mt-6"
           >
             <label htmlFor="input" className="text-[18px]">Subject</label>
-            <textarea type="text" id="voice-search" className="bg-gray-50 max-h-[200px] h-[180px]  mt-3 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#FF5A1F] focus:border-[#FF5A1F] block w-full ps-10 p-2.5 " placeholder="Enter your messages..." required></textarea>
-
+            <textarea type="text" id="voice-search" className="bg-gray-50 max-h-[100px] h-[100px]  mt-3 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#FF5A1F] focus:border-[#FF5A1F] block w-full ps-10 p-2.5 " placeholder="Enter your messages..." required></textarea>
           </div>
+          <button type="submit" className="focus:ring-1 py-3 px-6 bg-black text-white font-semibold rounded-lg mt-6 hover:scale-105 ">Submit</button>
 
 
 
