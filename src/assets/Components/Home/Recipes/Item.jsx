@@ -7,7 +7,7 @@ function Item({ AllData }) {
       initial={{
         opacity: 0,
         y: 50,
-        scale: 0.5,
+        scale: 0.8,
       }}
       whileInView={{
         opacity: 1,
