@@ -66,13 +66,13 @@ function Blog() {
       <div className="grid lg:grid-cols-6 md:grid-cols-1 mt-10 gap-4">
 
 
-        <Main className='col-span-4 ' />
+        <Main className='col-span-4 max-[640px]:col-span-6' />
 
 
-        <Aside className='col-span-2' />
+        <Aside className='col-span-2 max-[640px]:col-span-6' />
       </div>
       <div className="flex justify-center mt-4 mb-6">
-        <ul className="flex gap-4">
+        <ul className="flex flex-wrap gap-4">
           <li className="py-3 px-5 rounded-lg border font-semibold hover:bg-black hover:text-white transform transition-all ease-linear duration-200">1</li>
           <li className="py-3 px-5 rounded-lg border font-semibold hover:bg-black hover:text-white transform transition-all ease-linear duration-200">2</li>
           <li className="py-3 px-5 rounded-lg border font-semibold hover:bg-black hover:text-white transform transition-all ease-linear duration-200">3</li>
