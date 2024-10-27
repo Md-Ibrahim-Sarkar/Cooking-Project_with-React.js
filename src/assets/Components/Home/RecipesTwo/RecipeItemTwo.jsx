@@ -2,17 +2,17 @@
 import { motion } from 'framer-motion';
 
 function RecipeItemTwo({ recipe }) {
-  
 
-  let {name,image} = recipe
-  
+
+  let { name, image } = recipe
+
 
   return (
     <motion.div
       className="cursor-pointer"
       initial={{
         opacity: 0,
-        y: -100,
+        y: -20,
         scale: 0.5,
       }}
       whileInView={{

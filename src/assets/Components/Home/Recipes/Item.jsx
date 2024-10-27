@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 function Item({ AllData }) {
   return (
     <motion.div
       className="bg-gradient-to-t from-[#E7F9FD] to-[#e7f9fd00] max-w-[364px] py-4 px-2 rounded-xl cursor-pointer"
       initial={{
         opacity: 0,
-        y: 100,
+        y: 50,
         scale: 0.5,
       }}
       whileInView={{
